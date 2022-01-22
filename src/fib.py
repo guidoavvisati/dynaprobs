@@ -14,5 +14,5 @@ def fib_memo(n: int, memo: Dict = None) -> int:
         return 1
     if n in memo.keys():
         return memo[n]
-    memo[n] = fib_memo(n-1, memo) + fib_memo(n-2, memo)
+    memo[n] = fib_memo(n - 1, memo) + fib_memo(n - 2, memo)
     return memo[n]
