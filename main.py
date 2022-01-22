@@ -1,5 +1,5 @@
 if __name__ == "__main__":
-    from src.fib import fib
+    from src.fib import fib_simple, fib_memo
 
-    fib()
-    print("done")
+    n = 30
+    print(fib_memo(n))
